@@ -1,6 +1,19 @@
 <?page title="Home Page ZK Demo" ?>
 <zk xmlns:n="native">
-    <window title="Home" mode="modal" position="center,center" border="normal">
-        
+    <window title="Home" mode="modal" position="center,center" border="normal" width="500px">
+        <listbox>
+            <listhead>
+                <listheader label="NO"/>
+                <listheader label="Nama"/>
+                <listheader label="NIP"/>
+                <listheader label="Alamat"/>
+            </listhead>
+            <listitem>
+                <listcell>1</listcell>
+                <listcell>Pyramid Head</listcell>
+                <listcell>4908345589</listcell>
+                <listcell>Mist world</listcell>
+            </listitem>
+        </listbox>
     </window>
 </zk>
