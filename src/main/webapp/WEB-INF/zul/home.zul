@@ -1,0 +1,6 @@
+<?page title="Home Page ZK Demo" ?>
+<zk xmlns:n="native">
+    <window title="Home" mode="modal" position="center,center" border="normal">
+        
+    </window>
+</zk>
